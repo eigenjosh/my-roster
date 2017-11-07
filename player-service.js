@@ -36,7 +36,7 @@ function PlayersService(callback) {
         if (localData) {
             playersData = JSON.parse(localData);
             console.log(playersData)
-            return callback();
+            return callback()
         }
 
         var url = "https://bcw-getter.herokuapp.com/?url=";
@@ -56,5 +56,5 @@ function PlayersService(callback) {
 
 
 
-    loadPlayersData();
+    loadPlayersData()
 }

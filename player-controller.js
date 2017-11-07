@@ -25,9 +25,9 @@ function PlayerController() {
               <div class="panel panel-default">
                   <ul id='player-list'>
                       <div>
-                          <img src="${playerIndex.img}" alt="">
-                          <h4><b>${playerIndex.name}</b></h4>
-                          <h5>${playerIndex.team}</h5>
+                          <img src="http://s.nflcdn.com/static/content/public/image/fantasy/transparent/200x200/" alt="">
+                          <h4><b>${playerIndex.firstname}</b></h4>
+                          <h5>${playerIndex.pro_team}</h5>
                       </div>
                   </ul>
               </div>
