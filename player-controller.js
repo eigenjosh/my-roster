@@ -1,7 +1,7 @@
-var playerService = function PlayerController(){
+function PlayerController(){
 
     var loading = true;
-    var playerService = new PlayerService(ready);
+    var playerService = new PlayersService(ready);
 
     function ready(){
         loading = false;
@@ -10,8 +10,6 @@ var playerService = function PlayerController(){
             var teamSF = playerService.getPlayersByTeam("SF");
         })
     }
-
-
 
 
 }
